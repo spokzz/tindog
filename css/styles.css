@@ -47,4 +47,33 @@ body {
 /* Title Image */
 .title-image{
   width: 60%;
+  transform: rotate(25deg);
+  margin-left: 15%;
+
+}
+
+/* Features heading */
+h3{
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+#features{
+  margin: 5% 0;
+}
+
+.features-icon{
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+.features-description{
+  color: #8f8f8f;
+  margin: 0 10% 5% 10%;
 }
