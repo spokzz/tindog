@@ -1,21 +1,30 @@
-h1 {
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+.big-heading {
   font-family: 'Montserrat, sans-serif';
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .container-fluid {
   padding: 3% 15% 7%;
 }
 
+/* Title section */
+
 #title {
   background-color: #ff4c68;
   color: white;
+  text-align: left;
+
 }
 
 /* Navigation Bar */
@@ -53,12 +62,6 @@ body {
 }
 
 /* Features heading */
-h3 {
-  font-family: Montserrat;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 #features {
   padding: 7% 0 7%;
   margin: 0 5%;
@@ -81,18 +84,16 @@ h3 {
   margin: 0 10% 5% 10%;
 }
 
-/* Testimonials Section */
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
+.feature-title {
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.5;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
 }
 
 .testimonial-image {
@@ -101,10 +102,15 @@ h2 {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 /* press */
 #press {
   background-color: #ef8172;
-  text-align: center;
 }
 
 .press-logo {
@@ -115,9 +121,58 @@ h2 {
 /* Pricing section */
 #pricing {
   padding: 100px;
-  text-align: center;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.dog-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Call to action (CTA) section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: white;
+
+}
+
+/* footer section */
+#footer {
+  color: gray;
+  background-color: white;
+
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
